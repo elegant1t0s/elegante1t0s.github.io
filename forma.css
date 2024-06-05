@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+ }
+ body{
+    
+    background-color: #13878f67;
+    background-image: url("forma.css");
+        
+
+}
+ h1 {
+    text-align:  center;
+    background-color: black;
+    color: rgb(48, 221, 56);
+    padding: 40px;
+}
+h2 {
+    text-align:  center;
+    background-color: black;
+    color: rgb(48, 221, 56);
+    padding: 10px;
+}
+.contenido{
+    display: block;
+    margin: 5px;
+}
+.secciones{
+    display: block;
+    align-items: center;
+    padding: 5px;
+}
+video{
+
+    width: 350px;
+    height: 300px; 
+
+
+}
+
+
+
+
+
+
+
+
+
+
+

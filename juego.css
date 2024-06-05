@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #60e08b;
+}
+
+#game {
+    margin-top: 50px;
+}
+
+#letters button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#word {
+    font-size: 24px;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+}

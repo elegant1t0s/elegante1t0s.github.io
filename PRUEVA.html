@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Reproductor de Audio Invisible</title>
+<style>
+  /* Oculta el reproductor de audio */
+  audio {
+    display: none;
+  }
+</style>
+</head>
+<body>
+
+<h1>Mi Reproductor de Audio Invisible</h1>
+
+<!-- Agrega el archivo de audio -->
+<audio controls>
+  <source src="Audio de WhatsApp 2024-04-22 a las 19.44.50_46f5cb35.mp3" type="audio/mpeg">
+  Tu navegador no soporta el elemento de audio.
+</audio>
+
+<!-- Agrega un botón para reproducir la música -->
+<button onclick="playAudio()">Reproducir Música</button>
+
+<script>
+  // Función para reproducir el audio
+  function playAudio() {
+    const audioElement = document.querySelector('audio');
+    audioElement.play();
+  }
+</script>
+
+</body>
+</html>

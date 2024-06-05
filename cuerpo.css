@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+ }
+ body{
+    
+    background-color: #1d745767;
+    background-image: url("forma.css");
+        
+
+}
+ h1 {
+     text-align:  center;
+     background-color: black;
+     color: rgb(48, 221, 56);
+     padding: 40px;
+ }
+ h2 {
+    text-align:  center;
+    background-color: black;
+    color: rgb(48, 221, 56);
+    padding: 40px;
+ }
+    p{
+        text-align: center;
+        padding: 50px;
+        color: dimgray;
+    }
+ 
+ img {
+    width: 300px;
+    height: 300px;   
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+video{
+
+    width: 350px;
+    height: 300px; 
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+
+}
